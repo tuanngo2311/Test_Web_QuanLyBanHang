@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+encoding//WebContent/indexKH.jsp=UTF-8
+encoding//WebContent/login.jsp=UTF-8
+encoding//WebContent/tables/dashboard.jsp=UTF-8
+encoding//src/com/poly/dao/ProductDao.java=UTF-8
+encoding//src/com/poly/test_TestNG/Parameters_insertUser.java=UTF-8
+encoding//src/com/poly/test_TestNG/loginTestNG.java=UTF-8
+encoding//src/com/poly/test_TestNG/productTestNG.java=UTF-8
+encoding//src/com/poly/test_TestNG/userTestNG.java=UTF-8
+encoding//src/fpoly/testDelete.java=UTF-8
+encoding//src/fpoly/testLogin_insert.java=UTF-8
+encoding//src/fpoly/testupdate.java=UTF-8

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="6" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-24T08:09:23 ICT" name="Default suite" finished-at="2021-04-24T08:10:55 ICT" duration-ms="91771">
+    <groups>
+    </groups>
+    <test started-at="2021-04-24T08:09:23 ICT" name="Default test" finished-at="2021-04-24T08:10:55 ICT" duration-ms="91771">
+      <class name="com.poly.test_TestNG.loginTestNG">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.poly.test_TestNG.loginTestNG@6e6f2380]" started-at="2021-04-24T08:09:23 ICT" name="setUpClass" finished-at="2021-04-24T08:09:25 ICT" duration-ms="2117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.poly.test_TestNG.loginTestNG@6e6f2380]" started-at="2021-04-24T08:09:25 ICT" name="setUpMethod" finished-at="2021-04-24T08:09:25 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="TestLoginNotInformation()[pri:1, instance:com.poly.test_TestNG.loginTestNG@6e6f2380]" started-at="2021-04-24T08:09:25 ICT" name="TestLoginNotInformation" finished-at="2021-04-24T08:09:34 ICT" duration-ms="9289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLoginNotInformation -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:com.poly.test_TestNG.loginTestNG@6e6f2380]" started-at="2021-04-24T08:09:34 ICT" name="tearDownMethod" finished-at="2021-04-24T08:09:34 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.poly.test_TestNG.loginTestNG@6e6f2380]" started-at="2021-04-24T08:09:34 ICT" name="setUpMethod" finished-at="2021-04-24T08:09:34 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="TestLoginFail()[pri:2, instance:com.poly.test_TestNG.loginTestNG@6e6f2380]" started-at="2021-04-24T08:09:34 ICT" name="TestLoginFail" finished-at="2021-04-24T08:09:43 ICT" duration-ms="8981" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.poly.test_TestNG.loginTestNG.TestLoginFail(loginTestNG.java:88)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLoginFail -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:com.poly.test_TestNG.loginTestNG@6e6f2380]" started-at="2021-04-24T08:09:43 ICT" name="tearDownMethod" finished-at="2021-04-24T08:09:43 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.poly.test_TestNG.loginTestNG@6e6f2380]" started-at="2021-04-24T08:09:43 ICT" name="setUpMethod" finished-at="2021-04-24T08:09:43 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testCustomerLoginFaill()[pri:3, instance:com.poly.test_TestNG.loginTestNG@6e6f2380]" started-at="2021-04-24T08:09:43 ICT" name="testCustomerLoginFaill" finished-at="2021-04-24T08:09:52 ICT" duration-ms="9018" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Nhom04 - Login or Logout] but found [Index khách hàng]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Nhom04 - Login or Logout] but found [Index khách hàng]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.poly.test_TestNG.loginTestNG.testCustomerLoginFaill(loginTestNG.java:108)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCustomerLoginFaill -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:com.poly.test_TestNG.loginTestNG@6e6f2380]" started-at="2021-04-24T08:09:52 ICT" name="tearDownMethod" finished-at="2021-04-24T08:09:52 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.poly.test_TestNG.loginTestNG@6e6f2380]" started-at="2021-04-24T08:09:52 ICT" name="setUpMethod" finished-at="2021-04-24T08:09:52 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testCustomerLoginSuccess()[pri:4, instance:com.poly.test_TestNG.loginTestNG@6e6f2380]" started-at="2021-04-24T08:09:52 ICT" name="testCustomerLoginSuccess" finished-at="2021-04-24T08:10:01 ICT" duration-ms="8972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCustomerLoginSuccess -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:com.poly.test_TestNG.loginTestNG@6e6f2380]" started-at="2021-04-24T08:10:01 ICT" name="tearDownMethod" finished-at="2021-04-24T08:10:01 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.poly.test_TestNG.loginTestNG@6e6f2380]" started-at="2021-04-24T08:10:01 ICT" name="setUpMethod" finished-at="2021-04-24T08:10:01 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testAdminLoginFail()[pri:5, instance:com.poly.test_TestNG.loginTestNG@6e6f2380]" started-at="2021-04-24T08:10:01 ICT" name="testAdminLoginFail" finished-at="2021-04-24T08:10:10 ICT" duration-ms="9134" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Nhom04 - Login or Logout] but found [Index Admin]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Nhom04 - Login or Logout] but found [Index Admin]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.poly.test_TestNG.loginTestNG.testAdminLoginFail(loginTestNG.java:153)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdminLoginFail -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:com.poly.test_TestNG.loginTestNG@6e6f2380]" started-at="2021-04-24T08:10:10 ICT" name="tearDownMethod" finished-at="2021-04-24T08:10:10 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.poly.test_TestNG.loginTestNG@6e6f2380]" started-at="2021-04-24T08:10:10 ICT" name="setUpMethod" finished-at="2021-04-24T08:10:10 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testAdminLoginSuccess()[pri:6, instance:com.poly.test_TestNG.loginTestNG@6e6f2380]" started-at="2021-04-24T08:10:10 ICT" name="testAdminLoginSuccess" finished-at="2021-04-24T08:10:20 ICT" duration-ms="9994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdminLoginSuccess -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:com.poly.test_TestNG.loginTestNG@6e6f2380]" started-at="2021-04-24T08:10:20 ICT" name="tearDownMethod" finished-at="2021-04-24T08:10:20 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.poly.test_TestNG.loginTestNG@6e6f2380]" started-at="2021-04-24T08:10:20 ICT" name="setUpMethod" finished-at="2021-04-24T08:10:20 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testAdminLogoutSuccess()[pri:7, instance:com.poly.test_TestNG.loginTestNG@6e6f2380]" started-at="2021-04-24T08:10:20 ICT" name="testAdminLogoutSuccess" finished-at="2021-04-24T08:10:36 ICT" duration-ms="15783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdminLogoutSuccess -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:com.poly.test_TestNG.loginTestNG@6e6f2380]" started-at="2021-04-24T08:10:36 ICT" name="tearDownMethod" finished-at="2021-04-24T08:10:36 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.poly.test_TestNG.loginTestNG@6e6f2380]" started-at="2021-04-24T08:10:36 ICT" name="setUpMethod" finished-at="2021-04-24T08:10:36 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testCustomerLogoutSuccess()[pri:8, instance:com.poly.test_TestNG.loginTestNG@6e6f2380]" started-at="2021-04-24T08:10:36 ICT" name="testCustomerLogoutSuccess" finished-at="2021-04-24T08:10:48 ICT" duration-ms="12226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCustomerLogoutSuccess -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:com.poly.test_TestNG.loginTestNG@6e6f2380]" started-at="2021-04-24T08:10:48 ICT" name="tearDownMethod" finished-at="2021-04-24T08:10:48 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method signature="testOldLinkToImportSuccess()[pri:9, instance:com.poly.test_TestNG.loginTestNG@6e6f2380]" started-at="2021-04-24T08:10:48 ICT" name="testOldLinkToImportSuccess" finished-at="2021-04-24T08:10:55 ICT" duration-ms="6170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOldLinkToImportSuccess -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.poly.test_TestNG.loginTestNG@6e6f2380]" started-at="2021-04-24T08:10:48 ICT" name="setUpMethod" finished-at="2021-04-24T08:10:48 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:com.poly.test_TestNG.loginTestNG@6e6f2380]" started-at="2021-04-24T08:10:55 ICT" name="tearDownMethod" finished-at="2021-04-24T08:10:55 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.poly.test_TestNG.loginTestNG@6e6f2380]" started-at="2021-04-24T08:10:55 ICT" name="tearDownClass" finished-at="2021-04-24T08:10:55 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.poly.test_TestNG.loginTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
